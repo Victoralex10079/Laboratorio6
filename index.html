@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3.1 Crear Página</title>
+    <style type="text/css" media="screen">
+        body{
+            margin: 0;
+            font-family: "Open Sans", sans-serif;
+        }
+        h1{
+            margin: 0;
+        }
+        .navSpace{
+            margin-left:16%;
+        }
+        #img1 {
+            height: 30%;
+            width: 30%;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 15%;
+            background-color: #f1f1f1;
+            height: 100%;
+            position: fixed;
+            overflow: auto;
+        }
+
+        li a {
+            text-align: center;
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+        /* Change the link color on hover */
+        li a:hover {
+            background-color: rgb(119, 119, 119);
+            color: white;
+        }
+
+        .active {
+            background-color: #0c688d;
+            color: white;
+        }
+        #texto1{
+            width: 42%;
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a class="active" href="#">Página 1</a></li>
+            <li><a href="#">Página 2</a></li>
+            <li><a href="#">Página 3</a></li>
+        </ul>
+    </nav>
+    <h1 class="navSpace">Ejercicio 3.1: Crear Página</h1>
+    <div>
+        <img class="navSpace" id="img1" src="https://images2.alphacoders.com/985/thumb-1920-985381.jpg">
+    </div>
+    <div>
+        <p id="texto1" class="navSpace">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis quas mollitia suscipit officiis hic, quae reprehenderit animi eos pariatur labore earum saepe, nulla officia beatae. Neque minima fuga non expedita.
+        </p>
+    </div>
+</body>
+
+</html>
