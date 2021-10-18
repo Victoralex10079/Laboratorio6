@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wither</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <style type="text/css" media="screen">
+        body {
+            margin: 0;
+            font-family: "Open Sans", sans-serif;
+            background: white;
+        }
+        #headerSpan{
+            font-family: 'Bebas Neue', cursive;
+            margin-left: 2.8rem;
+            color: #ebebeb;
+            font-size: 1.5rem;
+        }
+        h1 {
+            margin: 0;
+            padding-top: 4px;
+            display: inline-block;
+            width: 55%;
+            font-weight: 600;
+            border-bottom: 1px solid #000;
+        }
+
+        h2 {
+            margin: 0;
+            padding-top: 4px;
+            display: inline-block;
+            width: 95%;
+            font-weight: 600;
+            border-bottom: 1px solid #000;
+        }
+
+        .containerImg {
+            position: relative;
+            width: 25%;
+            margin: 1rem;
+            float: right;
+        }
+
+        .txt1 {
+            width: 55%;
+            margin: 2%;
+            display: inline-block;
+            position: relative;
+        }
+
+        .txt2 {
+            width: 95%;
+            margin: 2%;
+            display: inline-block;
+            position: relative;
+        }
+
+        .image {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .overlay {
+            position: absolute;
+            bottom: 100%;
+            left: 0;
+            right: 0;
+            background-color: #2721339f;
+            overflow: hidden;
+            width: 100%;
+            height: 0;
+            transition: .5s ease;
+        }
+
+        .containerImg:hover .overlay {
+            bottom: 0;
+            height: 100%;
+        }
+
+        .overlayTxt {
+            white-space: nowrap;
+            color: #ebebeb;
+            font-size: 16px;
+            font-weight: 600;
+            position: absolute;
+            overflow: hidden;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+        }
+
+        .navSpace {
+            margin-left: 16%;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 15%;
+            background-color: #ebebeb;
+            height: 100%;
+            position: fixed;
+            overflow: auto;
+        }
+
+        li a {
+            text-align: center;
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+        /* Change the link color on hover */
+        li a:hover {
+            background-color: #313131;
+            color: white;
+        }
+
+        .active {
+            background-color: #2cad20;
+            color: white;
+        }
+
+        #texto1 {
+            width: 42%;
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-secondary" style="position: sticky; top: 0; z-index: 100;">
+        <div class="container-fluid">
+            <span id="headerSpan" class="navbar-brand mb-0 h1">Wiki-craft</span>
+        </div>
+    </nav>
+    <nav>
+        <ul>
+            <li><a class="" href="index.html">Home</a></li>
+            <li><a class="" href="pagina1.html">Lobo</a></li>
+            <li><a class="active" href="pagina2.html">Wither</a></li>
+            <li><a href="pagina3.html">Phantom</a></li>
+        </ul>
+    </nav>
+    <div class="navSpace">
+        <div>
+            <div>
+                <h1 style="padding-left: 2%;">Wither</h1>
+            </div>
+            <div>
+                <div>
+                    <div class="txt1">
+                        <p class="txt">
+                            The wither is an undead hostile boss mob that floats and shoots explosive skulls at players
+                            and mobs, that can only be purposely constructed by the player. It is the only source of
+                            nether stars, which are used to craft beacons.
+                        </p>
+                    </div>
+                    <div class="containerImg">
+                        <img class="image" src="https://minecraft-love888.neocities.org/sam.jpg">
+                        <div class="overlay">
+                            <div class="overlayTxt">
+                                Fuerza de ataque:<br>
+                                Fácil: 1pts.<br>
+                                Normal: 8pts.<br>
+                                Difícil: 12pts.<br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2 style="padding-left: 2%;">Spawning</h2>
+                </div>
+                <div class="txt2">
+                    <p>
+                        The wither is spawned by placing 4 blocks of soul sand and/or soul soil in a T shape (see image
+                        on the right in the "Behavior" section), and putting 3 wither skeleton skulls on top of the
+                        three upper blocks. The last block placed must be one of the three skulls and can be placed by
+                        the player or a dispenser. Air blocks are required on either side of the base soul sand or soul
+                        soil under the upper blocks (non-solid blocks such as grass and flowers prevent the wither from
+                        spawning). The building pattern can have any orientation (including horizontal and upside-down)
+                        as well as the skulls; the wither always spawns at the foot of the pattern. When the wither has
+                        successfully spawned, it is angered and creates an explosion around itself.
+                    </p>
+                </div>
+                <div>
+                    <h2 style="padding-left: 2%;">Drops</h2>
+                </div>
+                <div class="txt2">
+                    <p>
+                        The wither always drops one Nether Star upon death. In Java Edition the dropped nether star
+                        takes five minutes to despawn, though in Bedrock Edition the nether star never despawns. It
+                        cannot be destroyed by explosions, although it can be destroyed by cactus, fire or lava. The
+                        Looting enchantment does not increase this drop. It also drops 50 when killed by a player or a
+                        tamed wolf.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phantom</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <style type="text/css" media="screen">
+        body {
+            margin: 0;
+            font-family: "Open Sans", sans-serif;
+            background: white;
+        }
+        #headerSpan{
+            font-family: 'Bebas Neue', cursive;
+            margin-left: 2.8rem;
+            color: #ebebeb;
+            font-size: 1.5rem;
+        }
+        h1 {
+            margin: 0;
+            padding-top: 4px;
+            display: inline-block;
+            width: 55%;
+            font-weight: 600;
+            border-bottom: 1px solid #000;
+        }
+
+        h2 {
+            margin: 0;
+            padding-top: 4px;
+            display: inline-block;
+            width: 95%;
+            font-weight: 600;
+            border-bottom: 1px solid #000;
+        }
+
+        .containerImg {
+            position: relative;
+            width: 25%;
+            margin: 1rem;
+            float: right;
+        }
+
+        .txt1 {
+            width: 55%;
+            margin: 2%;
+            display: inline-block;
+            position: relative;
+        }
+
+        .txt2 {
+            width: 95%;
+            margin: 2%;
+            display: inline-block;
+            position: relative;
+        }
+
+        .image {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .overlay {
+            position: absolute;
+            bottom: 100%;
+            left: 0;
+            right: 0;
+            background-color: #2621649f;
+            overflow: hidden;
+            width: 100%;
+            height: 0;
+            transition: .5s ease;
+        }
+
+        .containerImg:hover .overlay {
+            bottom: 0;
+            height: 100%;
+        }
+
+        .overlayTxt {
+            white-space: nowrap;
+            color: #ebebeb;
+            font-size: 16px;
+            font-weight: 600;
+            position: absolute;
+            overflow: hidden;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+        }
+
+        .navSpace {
+            margin-left: 16%;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 15%;
+            background-color: #ebebeb;
+            height: 100%;
+            position: fixed;
+            overflow: auto;
+        }
+
+        li a {
+            text-align: center;
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+        /* Change the link color on hover */
+        li a:hover {
+            background-color: #313131;
+            color: white;
+        }
+
+        .active {
+            background-color: #2cad20;
+            color: white;
+        }
+
+        #texto1 {
+            width: 42%;
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-secondary" style="position: sticky; top: 0; z-index: 100;">
+        <div class="container-fluid">
+            <span id="headerSpan" class="navbar-brand mb-0 h1">Wiki-craft</span>
+        </div>
+    </nav>
+    <nav>
+        <ul>
+            <li><a class="" href="index.html">Home</a></li>
+            <li><a class="" href="pagina1.html">Lobo</a></li>
+            <li><a class="" href="pagina2.html">Wither</a></li>
+            <li><a class="active" href="pagina3.html">Phantom</a></li>
+        </ul>
+    </nav>
+    <div class="navSpace">
+        <div>
+            <div>
+                <h1 style="padding-left: 2%;">Fantasma</h1>
+            </div>
+            <div>
+                <div>
+                    <div class="txt1">
+                        <p class="txt">
+                            Los Fantasmas (Anteriormente conocido o llamada como Mob B y El monstruo de los cielos
+                            nocturnos) son una entidad hostil voladora común que atacará al jugador que no haya dormido
+                            en un periodo de 3 días o superior en el juego, puede dar de 0 a 1 de membrana, la cual
+                            sirve para hacer pociones de caída lenta o reparar las elytras.
+                        </p>
+                    </div>
+                    <div class="containerImg">
+                        <img class="image"
+                            src="https://api.mcpedl.com/storage/submissions/96724/images/new-phantom-animations_2.gif">
+                        <div class="overlay">
+                            <div class="overlayTxt">
+                                Fuerza de ataque:<br>
+                                Fácil: 4pts.<br>
+                                Normal: 6pts.<br>
+                                Difícil: 9pts.<br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2 style="padding-left: 2%;">Aparición</h2>
+                </div>
+                <div class="txt2">
+                    <p>
+                        Los fantasmas pueden generarse o aparecer en la superficie en grupos de 4 o a veces superior, en
+                        elevadas alturas. Sin embargo solo aparecerán en la superficie si el jugador no ha dormido
+                        durante más de 3 días dentro del juego y, que no tenga un bloque opaco encima de tu cabeza .
+                    </p>
+                </div>
+                <div>
+                    <h2 style="padding-left: 2%;">Comportamiento</h2>
+                </div>
+                <div class="txt2">
+                    <p>
+                        Cuando están inactivos, los fantasmas volarán en círculo en una constante elevación y dejando un
+                        rastro de partículas de humo gris. Tienen un radio de búsqueda bastante grande y a veces pueden
+                        descender o subir rápidamente para atacar a su víctima. Si se detiene o hiere durante esta
+                        acción, el fantasma retrocederá a su elevación original. Pueden ocasionar grandes incendios si
+                        se les enfurece.
+
+                        Los fantasmas pueden moverse a través del agua a la misma velocidad que lo hacen normalmente.
+                        Cuando está inactivo sobre el agua, el fantasma a veces se caerá en el agua y se hundirá, ya que
+                        no puede nadar en el agua hacia arriba.
+
+                        Cuando se encuentre bajo el efecto de Invisibilidad, el cuerpo del fantasma desaparecerá, pero
+                        sus ojos y partículas de humo seguirán siendo visibles.
+
+                        Los fantasmas arderán a la luz del sol. Al igual que otras criaturas no muertas, se ven
+                        perjudicadas por el efecto curación instantánea, se curan con el efecto Daño instantáneo, son
+                        inmunes a los efectos Veneno y Regeneración e ignoradas por el Wither.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

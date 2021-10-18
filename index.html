@@ -5,22 +5,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3.1 Crear Página</title>
+    <title>Wiki-craft</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <style type="text/css" media="screen">
-        body{
+        body {
             margin: 0;
             font-family: "Open Sans", sans-serif;
         }
-        h1{
+        #headerSpan{
+            font-family: 'Bebas Neue', cursive;
+            margin-left: 2.8rem;
+            color: #ebebeb;
+            font-size: 1.5rem;
+        }
+        h1 {
             margin: 0;
         }
-        .navSpace{
-            margin-left:16%;
+
+        .navSpace {
+            margin-left: 16%;
         }
+
         #img1 {
             height: 30%;
             width: 30%;
         }
+
         ul {
             list-style-type: none;
             margin: 0;
@@ -42,27 +56,33 @@
 
         /* Change the link color on hover */
         li a:hover {
-            background-color: rgb(119, 119, 119);
+            background-color: #313131;
             color: white;
         }
 
         .active {
-            background-color: #0c688d;
+            background-color: #2cad20;
             color: white;
         }
-        #texto1{
+
+        #texto1 {
             width: 42%;
             text-align: justify;
         }
     </style>
 </head>
-
 <body>
+    <nav class="navbar navbar-light bg-secondary" style="position: sticky; top: 0; z-index: 100;">
+        <div class="container-fluid">
+            <span id="headerSpan" class="navbar-brand mb-0 h1">Wiki-craft</span>
+        </div>
+    </nav>
     <nav>
         <ul>
-            <li><a class="active" href="#">Página 1</a></li>
-            <li><a href="#">Página 2</a></li>
-            <li><a href="#">Página 3</a></li>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="pagina1.html">Lobo</a></li>
+            <li><a href="pagina2.html">Wither</a></li>
+            <li><a href="pagina3.html">Phantom</a></li>
         </ul>
     </nav>
     <h1 class="navSpace">Ejercicio 3.1: Crear Página</h1>
@@ -71,9 +91,17 @@
     </div>
     <div>
         <p id="texto1" class="navSpace">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis quas mollitia suscipit officiis hic, quae reprehenderit animi eos pariatur labore earum saepe, nulla officia beatae. Neque minima fuga non expedita.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis quas mollitia suscipit officiis hic,
+            quae reprehenderit animi eos pariatur labore earum saepe, nulla officia beatae. Neque minima fuga non
+            expedita.
         </p>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
